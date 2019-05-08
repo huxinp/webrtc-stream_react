@@ -1,5 +1,5 @@
 {
-  "name": "whiteboard",
+  "name": "webrtc-stream_react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,5 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3002"
+  "proxy": "http://localhost:9003"
 }

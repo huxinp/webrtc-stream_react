@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Whiteboad from './views/Whiteboad';
 
-function App() {
+function App(props) {
+  console.log('App Component')
   return (
     <div className="App">
-        <Whiteboad />
+      App
+      {/* {React.Children.toArray(props.children)} */}
     </div>
   );
 }

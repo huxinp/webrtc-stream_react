@@ -39,6 +39,7 @@ export default function Whiteboad() {
     let localstream;
     const canvas = useRef(null);
     const video = useRef(null);
+    console.log('Whiteboad Component');
     useEffect(() => { // 生命周期
         if (!peerA || !peerB) createMedia();
     })

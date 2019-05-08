@@ -1,14 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './App.css';
 
-function App(props) {
+export default function App(props) {
   console.log('App Component')
   return (
     <div className="App">
       App
-      {/* {React.Children.toArray(props.children)} */}
+      {React.Children.toArray(props.children)}
     </div>
   );
-}
+};
 
-export default App;
+App.propTypes = {
+  children: PropTypes.node,
+};
+

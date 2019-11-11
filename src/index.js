@@ -22,7 +22,7 @@ const rootRoute = {
     indexRoute: { component: Login },
     childRoutes: createRoutes(),
 };
-console.log(createBrowserHistory(), createHashHistory(), createMemoryHistory())
+// console.log(createBrowserHistory(), createHashHistory(), createMemoryHistory())
 // const a = ReactDOM.render(<App />, document.getElementById('root'));
 // console.log('a', a);
 ReactDOM.render(<Router history={history} routes={rootRoute} />, document.getElementById('root'))
